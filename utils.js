@@ -6,6 +6,7 @@
 class Beat {
     constructor(audioSrc) {
         this.audio = new Audio(audioSrc);
+        
     }
 
     play = () => {
